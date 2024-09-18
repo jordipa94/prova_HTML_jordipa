@@ -14,3 +14,7 @@ th {
     padding-top: 6px;
     padding-left: 12px;
 }
+.titul{
+    display: flex;
+    align-items: center;
+}

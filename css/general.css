@@ -25,6 +25,11 @@ h1{
     margin-right: 10px;
 }
 .boto-link{
-        margin-left: 20px;
-        color: black;
+    background-color: #4c4c4c;
+    color: rgb(160, 160, 160);
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
 }
