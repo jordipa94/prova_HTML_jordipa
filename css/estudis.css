@@ -1,5 +1,5 @@
 table {
-    width: 26%;
+    width: 40%;
     border-collapse: collapse;
 }
 th, td {
@@ -12,4 +12,5 @@ th {
 }
 .taula-estudis{
     padding-top: 6px;
+    padding-left: 12px;
 }
