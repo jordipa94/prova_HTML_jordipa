@@ -5,24 +5,21 @@ body {
 header {
     display: flex;
     background-color: #797979;
-    color: #fff;
     align-items: center;
-}
-h1{
-    color: rgb(40, 40, 40);
-}
-.foto-perfil{
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-bottom: 5px;
 }
 .benvinguda {
     display: flex;
     align-items: center;
 }
+.benvinguda h1{
+    color: rgb(40, 40, 40);
+}
 .benvinguda img {
     max-width: 200px;
     margin-right: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
 }
 .boto-link{
     background-color: #4c4c4c;
