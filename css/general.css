@@ -1,32 +1,56 @@
 body {
-    margin: 1px;
+    margin: 0;
     background-color: #a19f9f;
+    font-family: Arial, sans-serif;
 }
+
 header {
     display: flex;
-    background-color: #797979;
+    flex-direction: row;
     align-items: center;
+    background-color: #797979;
+    padding: 10px;
 }
+
 .benvinguda {
     display: flex;
+    flex-direction: row;
     align-items: center;
 }
-.benvinguda h1{
-    color: rgb(40, 40, 40);
-}
+
 .benvinguda img {
-    max-width: 200px;
-    margin-right: 10px;
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-bottom: 5px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
 }
-.boto-link{
+
+.boto-link {
     background-color: #4c4c4c;
     color: rgb(160, 160, 160);
     padding: 10px 20px;
     text-align: center;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 8px 2px;
     border-radius: 12px;
+    width: 90%;
+    max-width: 300px;
+}
+
+@media (max-width: 412px) {
+    .benvinguda {
+        flex-direction: column;
+    }
+
+    header {
+        padding: 5px;
+    }
+
+    h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .boto-link {
+        font-size: 14px;
+    }
 }
